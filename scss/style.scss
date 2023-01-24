@@ -1,0 +1,33 @@
+@import 'variables';
+@import 'queries';
+@import 'boxContent';
+@import 'navBar';
+@import 'mainHome';
+@import 'mainFavs';
+@import 'mainEdits';
+@import 'mainPride';
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+    color: $fontColor;
+}
+
+html {
+    height: 100%;
+
+    body {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+
+        height: 100%;
+
+        background-color: $bg;
+    }
+}
+main {
+    height: 100%;
+}
